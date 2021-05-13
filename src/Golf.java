@@ -8,7 +8,7 @@ public class Golf {
 			int N =  sc.nextInt();
 			int x =  sc.nextInt();
 			int k =  sc.nextInt();
-			int sum = (N + x + k)*5;
+			int sum = (N + x + k)*0;
 			System.out.println(sum);
 		}
 		sc.close();
