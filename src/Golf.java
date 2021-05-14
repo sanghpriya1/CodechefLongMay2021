@@ -9,9 +9,10 @@ public class Golf {
 			int x = sc.nextInt();
 			int k = sc.nextInt();
 			int reverse = N - x;
-			if ((x % k == 0))
+			reverse += 1;
+			if (x % k == 0)
 				System.out.println("YES");
-			else if ((reverse + 1) % k == 0)
+			else if (reverse % k == 0)
 				System.out.println("YES");
 			else
 				System.out.println("NO");
